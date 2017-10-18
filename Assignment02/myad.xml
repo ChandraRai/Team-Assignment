@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/centennial.png</ImageUrl>
+    <NavigateUrl>https://www.centennialcollege.ca/</NavigateUrl>
+    <AlternateText>Visit Centennial College website</AlternateText>
+    <Impressions>30</Impressions>
+    <Keyword>Centennial</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/narayan.PNG</ImageUrl>
+    <NavigateUrl>http://narayanguragain.ca/</NavigateUrl>
+    <AlternateText>Visit my website</AlternateText>
+    <Impressions>10</Impressions>
+    <Keyword>Narayan</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/chandra.PNG</ImageUrl>
+    <NavigateUrl>http://chandrakrai.atwebpages.com/</NavigateUrl>
+    <AlternateText>Visit Chandra's website</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>Chandra</Keyword>
+  </Ad>  
+</Advertisements>

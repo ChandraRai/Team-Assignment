@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Assignment02.Main" %>
+
+<!DOCTYPE html>
+<!-- Student Name: Chandra K. Rai, Narayan Guragain, Bishnu Khanal, Balkrishna Dhakal, Frederico de Moraes Galdino -->
+<!-- Submitted to: S. M. Reza Dibaj -->
+<!-- Date: Oct 07, 2017 -->
+<!-- File Name: Main.Master.aspx -->
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, intitail-scale=1" />
+    <title>ASP.NET Assignment02</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!--CSS Section -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="Content/app.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <h4><i id="logo" class="fa fa-braille fa-lg" aria-hidden="true"></i>&nbsp;Team Assignment</h4>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li id="memberLogo" runat="server"><a href="Default.aspx"><i id="user" class="fa fa-users fa-lg" aria-hidden="true"></i>&nbsp;Members</a></li>
+                    <li id="chandra" runat="server"><a href="Default.aspx">Chandra</a></li>
+                    <li id="narayan" runat="server"><a href="Narayan.aspx">Narayan</a></li>
+                    <li id="bishnu" runat="server"><a href="Bishnu.aspx">Bishnu</a></li>
+                    <li id="balkrishna" runat="server"><a href="balkrishna.aspx">Balkrishna</a></li>
+                    <li id="fred" runat="server"><a href="fred.aspx">Fred</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div role="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer>
+            <nav class="navbar navbar-default navbar-fixed-bottom">
+                <div class="container">
+                    <h5 class="text-center">&copy; All Rights Reserved - 2017 Fall COMP - 229 ASP.NET - Page Visited: <asp:Label ID="myLabel" runat="server" Text="Label"></asp:Label> Time(s)</h5> 
+                </div>
+            </nav>
+        </footer>
+    </form>
+    <!-- JavaScript Section -->
+    <script src="Scripts/jquery-2.2.4.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>

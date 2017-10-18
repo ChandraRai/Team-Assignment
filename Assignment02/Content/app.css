@@ -1,0 +1,262 @@
+﻿/* Customer CSS */
+/* Student Name: Chandra K. Rai, Narayan Guragain, Bishnu Khanal, Balkrishna Dhakal, Frederico de Moraes Galdino */
+/* Submitted to: S. M. Reza Dibaj */
+/* Date: Oct 07, 2017 */
+/* File Name: app.css */
+
+#logo {
+    color: cornflowerblue;
+}
+
+#user {
+    padding: 0 10px 0 0;
+    color: goldenrod;
+}
+
+#AllPage {
+    width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ContentCenter {
+    padding-left: 30px;
+}
+
+#CheckBoxCenter {
+    margin: 15px 0 0 150px;
+}
+
+#Controls {
+    width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jumbotron {
+    border-radius: 25px;
+}
+
+.TeamPic {
+    margin: 0 30px 18px;
+}
+
+.nik, .bal, .bishnu, .narayan {
+    padding: 3px;
+    border: 1px solid #CCC;
+    box-shadow: 5px 5px 5px #828282;
+}
+
+.border-right {
+    border-right: 1px solid #CCC;
+}
+
+/* Balkrishna Page */
+
+.auto-style2 {
+    width: 340px;
+    padding: 10px;
+}
+
+fieldset {
+    padding: 10px;
+}
+
+.auto-style3 {
+    width: 340px;
+    height: 30px;
+    padding: 10px;
+}
+
+.auto-style9 {
+    height: 30px;
+    padding: 10px;
+    width: 340px;
+}
+
+.auto-style10 {
+    width: 340px;
+    height: 30px;
+    padding: 10px;
+}
+
+.auto-style11 {
+    width: 340px;
+    padding: 10px;
+}
+
+legend {
+    padding: 10px;
+    border-color: green;
+}
+
+tr {
+    border-bottom-style: inset;
+}
+
+#mainPage {
+    width: 980px;
+    margin: auto;
+    padding: 10px;
+    background-color: #FBFBFB;
+    font-size: large;
+    margin-bottom: 90px;
+    border: 1px solid #CCC;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #828282;
+}
+
+.BalkrishnaPic {
+    height: 250px;
+    border: 5px solid #CCC;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #828282;
+}
+
+#upload {
+    padding-bottom: 12px;
+}
+
+/* style for narayan's page begins*/
+
+#Content2 {
+	padding-bottom:300px;
+}
+
+#n-intro {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: #f2f2f2;
+}
+.centered {
+	text-align: center;
+}
+.img-circle {
+width: 150px;
+height:150px;
+}
+
+#display {
+	margin-left:auto;
+	margin-right:auto;
+	width:890px;	
+}
+
+#n-skills {
+	border-radius:25px;
+	padding-top: 40px;
+	margin-top: 40px;
+	background-color: #CCC;
+	padding-bottom: 40px;
+}
+
+#n-skills2 {
+	position:absolute;
+	top:0;
+	border-radius: 25px;
+	padding-top: 40px;
+	margin-top: 40px;
+	background-color: #CCC;
+	padding-bottom: 40px;
+}
+
+#skills-head {
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+#ddlist {
+	width:80%;
+	margin-bottom: 30px;
+}
+#abovefirstpanel {
+	margin-top: 30px;
+}
+#skillgraphics {
+	margin-top:60px;
+}
+#skillgraphics2 {
+	margin-top: 60px;
+}
+
+#addrotator {
+	margin-top: 40px;
+	padding-top: 40px;
+	margin-bottom:60px;
+}
+#calwi {
+	border-radius:25px;
+	padding:20px;
+}
+
+#cal {
+	padding:20px;
+}
+
+#sc {
+	background-color: green;
+}
+
+#ad {
+	padding: 20px;
+}
+
+#ad2 {
+	padding: 20px;
+}
+
+#WizardStep1 {
+	margin-top:50px;
+}
+
+#lastrow {
+	margin-bottom:250px;
+}
+
+/* style for narayan's page ends*/
+
+/*Fred's page*/
+.FredPage {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #FBFBFB;
+    font-size: large;
+    border: 1px solid #CCC;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #828282;
+}
+
+.bullet-list {
+    width:350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+#ForBottomMargin {
+    margin-bottom: 80px;
+}
+
+/*Bishnu's css*/
+
+#quote {
+    margin-left: 200px;
+    color: goldenrod;
+}
+
+#ForQuote {
+    margin-top:70px;
+    margin-left: 50px;
+}
+#quoteIcon {
+    color:goldenrod;
+}
+.TopContent {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:140px;
+}
+
