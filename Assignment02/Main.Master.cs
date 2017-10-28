@@ -12,15 +12,8 @@ namespace Assignment02
     {
         protected void Page_Load(object sender, EventArgs e)
         {            
-            if (Application["PageCounter"] == null)
-            {
-                Application["PageCounter"] = 1;
-            }
-            else
-            {
-                Application["PageCounter"] = (int)Application["PageCounter"] + 1;
-            }
-            myLabel.Text = Convert.ToString(Application["PageCounter"]);
+            
+            myLabel.Text = Convert.ToString(Application["user"]);
 
             SetActivePage();
         }
