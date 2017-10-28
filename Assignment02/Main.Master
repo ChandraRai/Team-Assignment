@@ -44,7 +44,7 @@
         <footer>
             <nav class="navbar navbar-default navbar-fixed-bottom">
                 <div class="container">
-                    <h5 class="text-center">&copy; All Rights Reserved - 2017 Fall COMP - 229 ASP.NET - Page Visited: <asp:Label ID="myLabel" runat="server" Text="Label"></asp:Label> Time(s)</h5> 
+                    <h5 class="text-center">&copy; All Rights Reserved - 2017 Fall COMP - 229 ASP.NET - Online User(s): <asp:Label ID="myLabel" runat="server" Text="Label"></asp:Label> Time(s)</h5> 
                 </div>
             </nav>
         </footer>
