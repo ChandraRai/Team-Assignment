@@ -16,7 +16,6 @@ namespace Assignment02
         
         protected void Session_Start(object sender, EventArgs e)
         {
-            Session.Timeout = 1;
             Application.Lock();
             Application["user"] = (int)Application["user"] + 1;
             Application.UnLock();
